@@ -51,3 +51,6 @@ This is a simple yet powerful note-taking application built with Django and the 
 
 ## License
 - This project is licensed under the MIT License - see the LICENSE file for details.
+
+![Demo GIF](1.png)
+![Demo GIF](2.png)
