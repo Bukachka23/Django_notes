@@ -1,0 +1,91 @@
+/* Import Google's Poppins font with multiple font weights */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* Set default styles for all elements: */
+/* Remove all margins and padding, set box-sizing to border-box (which includes padding and border in the element's total width and height), */
+/* and set the default font family to Poppins */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Set the background color for the body */
+body {
+  background: darkcyan;
+}
+
+/*#E7E7E7*/
+/* Define styles for the header:
+ Position is set to relative, text is center-aligned, text color is white, and the background image is set to repeat */
+.header {
+  position: relative;
+  text-align: center;
+  color: darkcyan;
+  background-repeat: repeat;
+
+}
+
+/*#fff!important*/
+/* Set styles for anchor tags within elements with the 'btn' class:
+Text color is set to white and text decoration (usually an underline for links) is removed */
+.btn a {
+  color: darkcyan;
+  text-decoration: none;
+  color: white;
+}
+
+/* Define styles for the primary button:
+Both the background color and the border color are set to a specific shade of blue */
+.btn-primary {
+  background-color: #7393B3;
+  border-color: #7393B3;
+}
+
+/* Define styles for the danger button:
+ Both the background color and the border color are set to a specific shade of red */
+.btn-danger {
+  background-color: #F88379;
+  border-color: #F88379;
+}
+
+/* Define styles for a button with a 'btn-limited' class:
+ Maximum width is set to 45%, overflow content is hidden, text overflow is set to display an ellipsis,
+ Text does not wrap to a new line, and flex items are forced to wrap onto multiple lines*/
+.btn-limited {
+    max-width: 45%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex-wrap: wrap;
+
+}
+
+/* Set styles for anchor tags within elements with the 'card' class:
+ Text decoration is removed and text color is set to a specific shade of blue */
+.card a {
+  text-decoration: none;
+
+
+}
+
+/* Set styles for the open and delete buttons:
+ Overflow content is hidden, text overflow is set to display an ellipsis,
+ Text does not wrap to a new line, and maximum width is set to 45% */
+.open-btn, .delete-btn {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 45%;
+
+}
+
+/* Set styles for the icon within the open and delete buttons:
+ Set a margin to the right of the icon */
+.open-btn .uil, .delete-btn .uil {
+  margin-right: 5px;
+
+}
+
+
+
