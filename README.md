@@ -15,31 +15,35 @@ This is a simple yet powerful note-taking application built with Django and the 
 
 ### Installing
 - Clone the repository to your local machine:
-
-- git clone https://github.com/yourusername/django-notes.git
+```
+git clone https://github.com/yourusername/django-notes.git
+```
 - Change into the project directory:
-
-- cd django-notes
+```
+ cd django-notes
+```
 
 ### Set up a Python virtual environment and activate it:
-
-- python3 -m venv venv
-- source venv/bin/activate
+```
+python3 -m venv venv
+source venv/bin/activate
+```
 
 ### Install the required dependencies:
 
-- pip install -r requirements.txt
-- Running the Application
+```
+pip install -r requirements.txt
+```
 
 ### To run the application locally:
-
-- python manage.py runserver
-- The application will be available at http://localhost:8000/.
+```
+python manage.py runserver
+```
 
 ## Running the Tests
-- To run the tests for the application:
-
-- python manage.py test
+```
+python manage.py test
+```
 
 ## Usage
 - Visit http://localhost:8000/ to view the note-taking application. Notes can be created, viewed, updated, and deleted. They can be organized by categories.
